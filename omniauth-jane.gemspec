@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::Jane::VERSION
 
-  gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth2', '>= 1.5'
+  gem.add_dependency 'omniauth', '~> 1.9'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.5'
 end
